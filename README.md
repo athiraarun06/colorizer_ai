@@ -1,4 +1,4 @@
-# 🎨 colorizer_Ai
+#  colorizer_Ai
 
 AI-powered historical image colorization system built using Deep Learning, OpenCV, and Streamlit.
 
@@ -6,7 +6,7 @@ This project automatically converts black-and-white images into realistic colori
 
 ---
 
-# 📌 Features
+# Features
 
 - Upload black & white images
 - AI-based automatic image colorization
