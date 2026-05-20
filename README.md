@@ -19,7 +19,7 @@ This project automatically converts black-and-white images into realistic colori
 
 ---
 
-# 🧠 How It Works
+# How It Works
 
 The project uses a pre-trained deep learning model trained for image colorization.
 
@@ -35,7 +35,7 @@ Finally, the channels are merged and converted back into an RGB image.
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 - Python
 - Streamlit
@@ -49,7 +49,7 @@ Finally, the channels are merged and converted back into an RGB image.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 colorizer_Ai/
@@ -71,9 +71,9 @@ colorizer_Ai/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
-## 1️⃣ Clone Repository
+##  Clone Repository
 
 ```bash
 git clone https://github.com/athiraarun06/colorizer_ai.git
@@ -82,7 +82,7 @@ cd colorizer_ai
 
 ---
 
-## 2️⃣ Create Virtual Environment
+## 2️Create Virtual Environment
 
 ### macOS/Linux
 
@@ -100,7 +100,7 @@ venv\Scripts\activate
 
 ---
 
-## 3️⃣ Install Dependencies
+##  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -108,7 +108,7 @@ pip install -r requirements.txt
 
 ---
 
-# 📥 Download Model File
+#  Download Model File
 
 The `.caffemodel` file is too large for GitHub.
 
@@ -133,7 +133,7 @@ models/
 
 ---
 
-# ▶️ Run the Project
+#  Run the Project
 
 ```bash
 streamlit run app.py
@@ -147,7 +147,7 @@ python3 -m streamlit run app.py
 
 ---
 
-# 🌐 Application Interface
+#  Application Interface
 
 The app allows users to:
 
@@ -158,7 +158,7 @@ The app allows users to:
 
 ---
 
-# 📸 Sample Output
+#  Sample Output
 
 ## Before Colorization
 
@@ -170,7 +170,7 @@ The app allows users to:
 
 ---
 
-# 🚀 Future Enhancements
+#  Future Enhancements
 
 - Face enhancement
 - Scratch/noise removal
@@ -181,7 +181,7 @@ The app allows users to:
 
 ---
 
-# 📚 Applications
+# Applications
 
 - Historical photo restoration
 - Digital archiving
@@ -191,7 +191,7 @@ The app allows users to:
 
 ---
 
-# ⚠️ Limitations
+#  Limitations
 
 - Colors may not always be historically accurate
 - Low-quality images may reduce output quality
@@ -199,7 +199,7 @@ The app allows users to:
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 ATHIRA ARUN
 
@@ -208,7 +208,7 @@ Karunya Institute of Technology and Sciences
 
 ---
 
-# ⭐ Acknowledgements
+#  Acknowledgements
 
 - OpenCV
 - Streamlit
