@@ -6,7 +6,15 @@ This project automatically converts black-and-white images into realistic colori
 
 ---
 
-# Features
+#  Live Demo
+
+ Deployed Application:
+
+https://colorizerai.streamlit.app/
+
+---
+
+#  Features
 
 - Upload black & white images
 - AI-based automatic image colorization
@@ -19,7 +27,7 @@ This project automatically converts black-and-white images into realistic colori
 
 ---
 
-# How It Works
+#  How It Works
 
 The project uses a pre-trained deep learning model trained for image colorization.
 
@@ -59,6 +67,7 @@ colorizer_Ai/
 ├── enhancement.py
 ├── requirements.txt
 ├── README.md
+├── LICENSE
 │
 ├── models/
 │   ├── colorization_deploy_v2.prototxt
@@ -71,9 +80,9 @@ colorizer_Ai/
 
 ---
 
-# Installation
+#  Installation
 
-##  Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/athiraarun06/colorizer_ai.git
@@ -82,7 +91,7 @@ cd colorizer_ai
 
 ---
 
-## 2️Create Virtual Environment
+## Create Virtual Environment
 
 ### macOS/Linux
 
@@ -100,7 +109,7 @@ venv\Scripts\activate
 
 ---
 
-##  Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -108,28 +117,11 @@ pip install -r requirements.txt
 
 ---
 
-#  Download Model File
+#  Model Download
 
-The `.caffemodel` file is too large for GitHub.
+The `.caffemodel` file is automatically downloaded during runtime if it is missing.
 
-Download it manually from:
-
-https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=1
-
-After downloading, place it inside:
-
-```text
-models/
-```
-
-Final structure:
-
-```text
-models/
-├── colorization_deploy_v2.prototxt
-├── colorization_release_v2.caffemodel
-└── pts_in_hull.npy
-```
+No manual installation is required for deployment.
 
 ---
 
@@ -147,9 +139,19 @@ python3 -m streamlit run app.py
 
 ---
 
-#  Application Interface
+#  Deployment
 
-The app allows users to:
+This project is successfully deployed using Streamlit Community Cloud.
+
+Live Link:
+
+https://colorizerai.streamlit.app/
+
+---
+
+#  Application Features
+
+The application allows users to:
 
 - Upload grayscale images
 - Generate AI-colorized images
@@ -158,30 +160,18 @@ The app allows users to:
 
 ---
 
-#  Sample Output
-
-## Before Colorization
-
-(Add screenshot here)
-
-## After Colorization
-
-(Add screenshot here)
-
----
-
-#  Future Enhancements
+# Future Enhancements
 
 - Face enhancement
 - Scratch/noise removal
 - Batch image colorization
 - GAN-based advanced colorization
-- Cloud deployment
 - Real-time restoration
+- AI photo repair
 
 ---
 
-# Applications
+#  Applications
 
 - Historical photo restoration
 - Digital archiving
@@ -205,6 +195,15 @@ ATHIRA ARUN
 
 B.Tech Computer Science Engineering  
 Karunya Institute of Technology and Sciences
+
+GitHub:
+https://github.com/athiraarun06
+
+---
+
+#  License
+
+This project is licensed under the MIT License.
 
 ---
 
