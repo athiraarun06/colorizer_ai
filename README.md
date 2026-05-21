@@ -193,8 +193,6 @@ The application allows users to:
 
 ATHIRA ARUN
 
-B.Tech Computer Science Engineering  
-Karunya Institute of Technology and Sciences
 
 GitHub:
 https://github.com/athiraarun06
