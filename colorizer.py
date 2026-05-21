@@ -1,6 +1,18 @@
 import cv2
 import numpy as np
 import os
+import urllib.request
+
+
+MODEL_URL = "https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=1"
+
+
+def download_model_if_missing(model_path):
+    if not os.path.exists(model_path):
+        os.makedirs(os.path.dirname(model_path), exist_ok=True)
+        print("Downloading colorization model...")
+        urllib.request.urlretrieve(MODEL_URL, model_path)
+        print("Model downloaded successfully.")
 
 
 class ImageColorizer:
@@ -34,9 +46,7 @@ class ImageColorizer:
             )
 
         if not os.path.exists(self.model_path):
-            raise FileNotFoundError(
-                "Missing colorization_release_v2.caffemodel"
-            )
+            download_model_if_missing(self.model_path)
 
         if not os.path.exists(self.points_path):
             raise FileNotFoundError(
